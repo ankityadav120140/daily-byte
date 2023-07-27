@@ -1,4 +1,5 @@
 Privacy Policy for Daily Byte
+
 Thank you for using Daily Byte (the "App"). This Privacy Policy is intended to inform you about the types of data we collect, how we use and store it, and the measures we take to protect your privacy. By using the App, you agree to the practices described in this Privacy Policy.
 
 1. Information Collection and Usage
