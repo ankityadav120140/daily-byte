@@ -5,10 +5,10 @@
 // 'flutter create' template.
 
 // The application's name. By default this is also the title of the Flutter window.
-PRODUCT_NAME = daily_dose
+PRODUCT_NAME = daily_byte
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.ankit.dailyDose
+PRODUCT_BUNDLE_IDENTIFIER = com.ankit.dailyByte
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2023 com.ankit. All rights reserved.

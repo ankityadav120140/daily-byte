@@ -6,7 +6,6 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../global/global.dart';
-import 'package:timezone/data/latest.dart' as tz;
 import 'package:timezone/timezone.dart' as tz;
 
 class HomePage extends StatefulWidget {
@@ -94,7 +93,7 @@ class _HomePageState extends State<HomePage> {
     initializeNotifications();
 
     const AndroidInitializationSettings initializationSettingsAndroid =
-        AndroidInitializationSettings('@mipmap/launcher_icon');
+        AndroidInitializationSettings('@mipmap/ic_launcher');
     final InitializationSettings initializationSettings =
         InitializationSettings(android: initializationSettingsAndroid);
     flutterLocalNotificationsPlugin.initialize(
@@ -114,7 +113,7 @@ class _HomePageState extends State<HomePage> {
   Future<void> checkNotificationPermission() async {
     // Check if the notification permission is already granted.
     PermissionStatus status = await Permission.notification.status;
-
+    print("Permission staus ::::::::::::::::::::::::: $status");
     if (!status.isGranted) {
       // If the permission is not granted, ask the user for permission.
       await Permission.notification.request();
@@ -551,7 +550,7 @@ class _HomePageState extends State<HomePage> {
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
         backgroundColor: Colors.blueAccent.shade100.withOpacity(0.5),
-        title: Text("Daily Dose"),
+        title: Text("Daily Byte"),
         centerTitle: true,
       ),
       body: Container(

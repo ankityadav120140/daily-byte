@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.ankit" "\0"
-            VALUE "FileDescription", "daily_dose" "\0"
+            VALUE "FileDescription", "daily_byte" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "daily_dose" "\0"
+            VALUE "InternalName", "daily_byte" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 com.ankit. All rights reserved." "\0"
-            VALUE "OriginalFilename", "daily_dose.exe" "\0"
-            VALUE "ProductName", "daily_dose" "\0"
+            VALUE "OriginalFilename", "daily_byte.exe" "\0"
+            VALUE "ProductName", "daily_byte" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
